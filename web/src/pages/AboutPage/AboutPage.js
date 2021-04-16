@@ -1,6 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <>
       <header>
@@ -13,9 +13,15 @@ const HomePage = () => {
           </ul>
         </nav>
       </header>
-      <main>Home</main>
+      <main>
+        <p>
+          This site was created to demonstrate my mastery of redwoodJS: Look
+          upon my works and despait!
+        </p>
+        <Link to={routes.home()}>Go Home</Link>
+      </main>
     </>
   )
 }
 
-export default HomePage
+export default AboutPage
