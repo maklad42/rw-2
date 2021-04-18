@@ -5,7 +5,7 @@ const BlogLayout = ({ children }) => {
     <>
       <header>
         <h1>
-          <Link to={routes.home()}>Maklad's Blog</Link>
+          <Link to={routes.home()}>Maklad&apos;s Blog</Link>
         </h1>
         <nav>
           <ul>
